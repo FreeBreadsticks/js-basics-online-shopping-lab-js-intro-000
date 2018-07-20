@@ -50,12 +50,13 @@ function viewCart() {
 }
 
 function total() {
-  var t=0
-  for (let i=0; i<cart.length; i++){
-    t += cart[i]["itemPrice"]
-  }
-  return t 
+  // var t=0
+  // for (let i=0; i<cart.length; i++){
+  //   t += cart[i]["itemPrice"]
+  // }
+  // return t 
   // write your code here
+  getCart().reduce((sum, i) => sum + i.itemPrice, 0)
 }
 
 function removeFromCart(item) {
