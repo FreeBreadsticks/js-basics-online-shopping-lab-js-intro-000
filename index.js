@@ -20,7 +20,7 @@ function addToCart(item) {
  //add to cart 
  cart << toAdd
  //return item has been added to your cart
- 
+ return `${item} has been added to your cart.`
 }
 
 function viewCart() {
