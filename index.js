@@ -13,8 +13,8 @@ function addToCart(item) {
  // write your code here
  //create an Object
  let toAdd = {
-   itemName: item,
-   itemPrice: Math.floor(Math.random()*100)
+   'itemName': item,
+   'itemPrice': Math.floor(Math.random()*100)
  }
  
  //add to cart 
