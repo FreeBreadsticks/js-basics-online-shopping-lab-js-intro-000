@@ -56,7 +56,7 @@ function total() {
   // }
   // return t 
   // write your code here
-  getCart().reduce((sum, i) => return sum + i.itemPrice, 0)
+  return getCart().reduce((sum, i) => sum + i.itemPrice, 0)
 }
 
 function removeFromCart(item) {
