@@ -36,6 +36,9 @@ function viewCart() {
   else if (getCart().length === 1) {
     return `In your cart, you have ${getCart()[0].itemName} at $${getCart()[0].itemPrice}.`
   }
+  else if (getCart().length === 2) {
+    return `In your cart, you have ${getCart()[0].itemName} at $${getCart()[0].itemPrice}, and ${getCart()[1].itemName} at $${getCart()[1].itemPrice}.`
+  }
   
   // for (let i = 0; i < getCart().length; i++) {
     
