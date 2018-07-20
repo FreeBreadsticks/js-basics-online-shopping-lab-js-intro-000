@@ -37,11 +37,11 @@ function viewCart() {
     return `In your cart, you have ${getCart()[0].itemName} at ${getCart()[0].itemPrice}`
   }
   
-  for (let i = 0; i < getCart().length; i++) {
+  // for (let i = 0; i < getCart().length; i++) {
     
       
     
-  }
+  // }
 }
 
 function total() {
