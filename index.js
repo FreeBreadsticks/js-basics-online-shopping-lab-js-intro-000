@@ -16,11 +16,9 @@ function addToCart(item) {
    itemName: item,
    itemPrice: Math.floor(Math.random()*100)
  }
- //create a random number - assign to price 
  
  //add to cart 
- 
- 
+ cart << toAdd
  //return item has been added to your cart
  
 }
