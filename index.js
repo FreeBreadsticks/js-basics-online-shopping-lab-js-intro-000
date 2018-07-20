@@ -11,6 +11,16 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
+ //create an Object
+ let toAdd = {
+   
+ }
+ //create a random number - assign to price 
+ 
+ //add to cart 
+ 
+ 
+ //return item has been added to your cart
  
 }
 
