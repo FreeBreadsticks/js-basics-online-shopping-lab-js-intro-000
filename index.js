@@ -14,7 +14,7 @@ function addToCart(item) {
  //create an Object
  let toAdd = {
    itemName: item,
-   itemPrice: Mat
+   itemPrice: Math.floor(Math.random()*100)
  }
  //create a random number - assign to price 
  
