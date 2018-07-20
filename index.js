@@ -28,7 +28,13 @@ function addToCart(item) {
 function viewCart() {
   // write your code here
   //iterate over contents of the cart
-  //
+  // return strings as appropriate
+  //check if cart is empty first
+  if getCart().empty?
+  
+  for (let i = 0; i < getCart.length; i++) {
+
+  }
 }
 
 function total() {
