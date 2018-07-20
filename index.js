@@ -18,7 +18,7 @@ function addToCart(item) {
  }
  console.log(toAdd)
 
- cart << toAdd
+ cart.toAdd
   console.log(cart)
   console.log(getCart())
 
