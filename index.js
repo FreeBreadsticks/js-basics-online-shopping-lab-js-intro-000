@@ -13,7 +13,8 @@ function addToCart(item) {
  // write your code here
  //create an Object
  let toAdd = {
-   
+   itemName: item,
+   itemPrice: Mat
  }
  //create a random number - assign to price 
  
