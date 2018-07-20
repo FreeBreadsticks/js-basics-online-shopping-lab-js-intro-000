@@ -27,6 +27,8 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
+  //iterate over contents of the cart
+  //
 }
 
 function total() {
