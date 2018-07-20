@@ -45,7 +45,7 @@ function viewCart() {
     
     
   }
-  result += getCart()[]
+  result += "and " getCart()[cart.length -1]["itemName"] "at $" + getCart()[cart.length-1]["itemPrice"] + "."
 }
 
 function total() {
